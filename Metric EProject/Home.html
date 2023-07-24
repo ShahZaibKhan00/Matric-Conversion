@@ -9,6 +9,8 @@
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha512-3dZ9wIrMMij8rOH7X3kLfXAzwtcHpuYpEgQg1OA4QAob1e81H8ntUQmQm3pBudqIoySO5j0tHN4ENzA6+n2r4w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <link rel="stylesheet" href="CSS/Home.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
   <div class="one">
@@ -19,10 +21,10 @@
   <div class="navbar">
     <div class="navA">
         <ul>
-            <li><a href=""> Home </a></li>
-            <li><a href="#"> Metric Conversion</a></li>
-            <li><a href="#"> History </a></li>
-            <li><a href="#"> Article</a></li>
+            <li><a href="Home.html"> Home </a></li>
+            <li><a href="Metric Conversion.html"> Metric Conversion</a></li>
+            <li><a href="History.html"> History </a></li>
+            <li><a href="Article.html"> Article</a></li>
             <li><a href="C:\Users\Hammd Elahi\OneDrive\Documents\GitHub\Matric-Conversion\Metric EProject\FAQs.html"> FAQs </a></li>
         </ul>
     </div>
@@ -69,6 +71,8 @@
 
 <div class="MainH1"> <h2>Length Conversion Charts </h2></div>
 
+<div data-aos="fade-up">
+
       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
       <script type="text/javascript">
       
@@ -104,10 +108,10 @@
       </script>
     </head>
       <div id="chart_div1" style="width: 900px; height: 500px;"></div>
+</div>
 
 
-
-
+<div data-aos="fade-up">
       <title>Miles to Kilometers Conversion Chart</title>
       <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
       <script type="text/javascript">
@@ -137,9 +141,9 @@
       </script>
   </head>
       <div id="chart_div4" style="width: 100%; height: 400px;"></div>
+</div>
 
-
-
+<div data-aos="fade-up">
       <div id="chart_div3"></div>
   
       <script type="text/javascript">
@@ -176,6 +180,7 @@
           chart.draw(data, options);
         }
       </script>
+      </div>
 
 
 
@@ -225,6 +230,11 @@
         }
       </script>
       
+      <div class="MainH1"> <h3>Area Conversion Charts </h3></div>
 
+
+      <script>
+        AOS.init();
+      </script> 
 </body>
 </html>

@@ -29,23 +29,10 @@ li{ list-style: none !important;
 
 }
 
-.nav-link:hover {
-    display: block;
-    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-    font-size: var(--bs-nav-link-font-size);
-    font-weight: var(--bs-nav-link-font-weight);
-    color: rgb(20, 113, 219) !important;
-    text-decoration: none;
-    font-size: 17px;
-    border-radius: 9px;
-    text-transform: uppercase;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-}
 
 #chart_div1{
-    margin-left:-100px;
-    margin-top: -80px;
+    margin-left: 17%;
+    margin-top: auto;
     background-color: transparent;
 }
 
@@ -126,6 +113,11 @@ font-weight: 600 !important;}
     right: 0;
     top: 50%;
     position: absolute;
+  }
+
+  .MainH1 h3{
+    font-size: 50px !important;
+    text-shadow: 1px 1px black;
   }
 
   .MainH1 h2{
