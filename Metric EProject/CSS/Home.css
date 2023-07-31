@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
 }
+body{
+    
+}
 
 .navbar{
     background-color: rgba(0, 0, 0, 0.783);
@@ -9,7 +12,7 @@
     font-weight: 600;
 }
 
-ul{ 
+.navA ul{ 
     display: flex!important;
     margin-left: 700px;
 
@@ -56,33 +59,42 @@ h1{
     font-weight: 600;
 }
 
+#ImageB{
+    height: 560px;
+    width: 100%;
+    position: absolute;
+    
+}
 .d-block{
     width: 1387px;
     height: 550px;}
 
 #Hed1{
+    position: relative;
     color: black;
     font-weight: 700 !important;
     font-size: 47px !important;
     text-shadow: 1px 1px white;
-    padding-right: 50px;
     padding-top: 60px;
+    margin-left: 200px
 }
 
 .Par1{
+    position: relative;
     padding-bottom: 190px;
     font-size: 21px;
     width: 1000px;
-    padding-right: 20px;
+    padding-left: 40px;
     text-align: center;
     font-weight: 600;
-    text-shadow: 1px 1px black;
+    color: rgb(238, 167, 0);
+    text-shadow: 0.2px 0.2px black;
     
 
 }
 
-p span{color: black;
-font-size: 27px;
+p span{color: black !important;
+font-size: 27px !important;
 font-weight: 600 !important;}
 
 .MainH1{
@@ -124,3 +136,36 @@ font-weight: 600 !important;}
     font-size: 50px !important;
     text-shadow: 1px 1px black;
   }
+
+  .Footlink ul{ 
+    display: flex !important;
+    margin-left: 260px;
+    
+
+}
+
+.Footlink a {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(238, 167, 0);
+    font-size: 18px;
+
+    
+}
+ section i {
+    color: rgb(238, 167, 0);
+ }
+  
+footer{
+    background-color: rgba(0, 0, 0, 0.783) !important;
+}
+
+.copy{
+    padding-top: 10px !important;
+    height: 40px;
+    color: rgb(238, 167, 0);
+}
+
+.bg-image{
+    position: relative;
+}
