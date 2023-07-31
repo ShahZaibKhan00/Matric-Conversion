@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/MetricConversion.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <div class="one">
@@ -57,7 +58,7 @@
         <input type="text">
     </div>
 
-<div class="select">
+<div class="select" style="display: none;" id="Area">
 <select class="form-select" multiple aria-label="multiple select example">
     <option value="1">Meter</option>
     <option value="2">Kilometer</option>
@@ -89,49 +90,7 @@
 </div>
 </div>
 
-<div class="main">
-<div class="nav">
-  <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Area</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Length</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Volume</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" href="#">Mass</a>
-        </li>
-      <li class="nav-item">
-          <a class="nav-link" href="#">Temperature</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" href="#">Currency</a>
-      </li>
-    
-    </ul>
-</div>
-<div class="inputs">
-  <input type="text">
-  <input type="text">
-</div>
 
-<div class="select">
-<select class="form-select" multiple aria-label="multiple select example">
-<option value="1">Celsius</option>
-<option value="2">Kelvin</option>
-<option value="3">Fahrenhiet</option>
-</select>
-
-<select class="form-select" multiple aria-label="multiple select example">
-<option value="1">Celsius</option>
-<option value="2">Kelvin</option>
-<option value="3">Fahrenhiet</option>
-</select>
-</div>
-</div>
 
 
 <div class="main">
@@ -155,7 +114,6 @@
           <li class="nav-item">
               <a class="nav-link" href="#">Currency</a>
           </li>
-        
         </ul>
   </div>
   <div class="inputs">
@@ -163,7 +121,7 @@
       <input type="text">
   </div>
 
-<div class="select">
+<div class="select" style="display: none;" id="Length">
 <select class="form-select" multiple aria-label="multiple select example">
   <option value="1">Meter</option>
   <option value="2">Kilometer</option>
@@ -227,7 +185,7 @@
       <input type="text">
   </div>
 
-<div class="select">
+<div class="select" style="display: none;" id="Volume">
 <select class="form-select" multiple aria-label="multiple select example">
   <option value="1">Cubic Meter</option>
   <option value="2">Cubic Kilometer</option>
@@ -318,7 +276,7 @@
       <input type="text">
   </div>
 
-<div class="select">
+<div class="select" style="display: none;" id="Mass">
 <select class="form-select" multiple aria-label="multiple select example">
   <option value="1">Kilo Gram</option>
   <option value="2">Gram</option>
@@ -349,6 +307,50 @@
 </div>
 
 
-
+<div class="main">
+  <div class="nav">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Area</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Length</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Volume</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Mass</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Temperature</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Currency</a>
+        </li>
+      
+      </ul>
+  </div>
+  <div class="inputs">
+    <input type="text">
+    <input type="text">
+  </div>
+  
+  <div class="select" style="
+display: none;" id="Temperature">
+  <select class="form-select" multiple aria-label="multiple select example">
+  <option value="1">Celsius</option>
+  <option value="2">Kelvin</option>
+  <option value="3">Fahrenhiet</option>
+  </select>
+  
+  <select class="form-select" multiple aria-label="multiple select example">
+  <option value="1">Celsius</option>
+  <option value="2">Kelvin</option>
+  <option value="3">Fahrenhiet</option>
+  </select>
+  </div>
+  </div>
+<script src="./JS/Metric Conversion.JS"></script>
 </body>
 </html>
