@@ -53,6 +53,7 @@ h1{
   font-weight: 600;
 }
 
+<<<<<<< Updated upstream
 .NavImg{
   height: 100px;
   margin-top: -40px;
@@ -73,13 +74,21 @@ h1{
   font-weight: 600;
 }
 
+=======
+body{
+  background-color: #212529;
+}
+>>>>>>> Stashed changes
   
   h2{
       text-align: center;
       padding: 10px;
       font-size: 50px;
       color:white;
+<<<<<<< Updated upstream
       margin: auto !;
+=======
+>>>>>>> Stashed changes
       
       
   }
@@ -88,6 +97,7 @@ h1{
       color:white; */
   
   .card-body{
+<<<<<<< Updated upstream
     padding-top: 10px;
     padding-bottom: 10px;
       background-color: rgba(238,167,0);
@@ -101,6 +111,19 @@ h1{
       height:500px;
       height:auto!important;
       min-height:380px;
+=======
+      background-color: rgba(238,167,0);
+      width: 600px;
+      border-style: solid;
+      border-radius: 5px;
+      margin-left: 390px;
+      margin-top: 50px;
+      border-color: lightgrey;
+      color:white;
+      height:px;
+      height:auto!important;
+      min-height:400px;
+>>>>>>> Stashed changes
   }
   .question1{
       border-style:solid;
@@ -108,6 +131,10 @@ h1{
       padding:5px;
       background-color: black;
       font-size: 20px;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
   }
   .question2{
       border-style:solid;
@@ -132,6 +159,7 @@ h1{
       border-color:rgba(0,0,0,0.783);
       padding:5px;
       background-color: black;
+<<<<<<< Updated upstream
       font-size: 20px;
   }
   
@@ -166,3 +194,7 @@ footer{
     height: 40px;
     color: rgb(238, 167, 0);
 }
+=======
+    font-size: 20px;}
+  
+>>>>>>> Stashed changes

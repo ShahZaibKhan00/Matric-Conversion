@@ -27,6 +27,7 @@ li{ list-style: none !important;
     padding: 25px;
     color: rgb(238, 167, 0);
     font-family: Arial, Helvetica, sans-serif;
+<<<<<<< Updated upstream
 
 }
 
@@ -52,6 +53,31 @@ h1{
 }
 
 
+=======
+  
+  }
+  
+  .NavImg{
+    height: 100px;
+    margin-top: -40px;
+    width: 1390px;
+    margin-left: -42px; 
+  }
+  .one{ background-color: rgb(238, 167, 0);
+    position:relative;}
+  
+  h1{
+    position: absolute;
+    margin-top: -42px;
+    font-size: 35px;
+    padding-left: 10px;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+  }
+  
+>>>>>>> Stashed changes
   .main{
     background-color:  rgb(238, 167, 0);
     margin-top: 50px !important;
